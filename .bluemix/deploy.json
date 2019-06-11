@@ -138,6 +138,7 @@
         }
     },
     "required": [
+        "api-key",
         "dev-region",
         "dev-organization",
         "dev-space",
