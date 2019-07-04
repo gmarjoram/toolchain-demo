@@ -15,7 +15,9 @@
     "type": "object",
     "properties": {
         "api-key": {
-            "description": "The IBM Cloud API key is used to access the IBM Container Service API and interact with the cluster. You can obtain your API key with 'ibmcloud iam api-key-create' or via the console at https://cloud.ibm.com/iam#/apikeys by clicking **Create API key** (Each API key only can be viewed once).",
+            "description": {
+                "$ref": "#/messages/deploy.apiKeyDescription"
+            },
             "type": "string",
             "pattern": "\\S",
             "validator": {
@@ -183,7 +185,9 @@
         {
             "type": "password",
             "readonly": false,
-            "title": "IBM Cloud API key",
+            "title": {
+                "$ref": "#/messages/deploy.apiKeyTitle"
+            },
             "key": "api-key"
         },
         {
