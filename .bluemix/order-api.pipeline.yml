@@ -49,6 +49,7 @@ stages:
       organization: ${DEV_ORG_NAME}
       space: ${DEV_SPACE_NAME}
       application: ${CF_APP_NAME}
+      api_key: ${API_KEY}
     script: |-
       #!/bin/bash
       SERVICE=$(cf services | grep myMicroservicesCloudant ||:)
@@ -113,6 +114,7 @@ stages:
       organization: ${QA_ORG_NAME}
       space: ${QA_SPACE_NAME}
       application: ${CF_APP_NAME}
+      api_key: ${API_KEY}
     script: |-
       #!/bin/bash
       SERVICE=$(cf services | grep myMicroservicesCloudant ||:)
@@ -203,6 +205,7 @@ stages:
       organization: ${PROD_ORG_NAME}
       space: ${PROD_SPACE_NAME}
       application: ${CF_APP_NAME}
+      api_key: ${API_KEY}
     script: |-
       #!/bin/bash
       SERVICE=$(cf services | grep myMicroservicesCloudant ||:)
