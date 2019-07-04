@@ -24,8 +24,8 @@
         },
         "dev-region": {
             "description": {
-                "$ref":"#/messages/deploy.region"
-             },
+                "$ref": "#/messages/deploy.region"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-region",
@@ -34,8 +34,8 @@
         },
         "dev-organization": {
             "description": {
-                "$ref":"#/messages/deploy.org"
-             },
+                "$ref": "#/messages/deploy.org"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-org",
@@ -44,8 +44,8 @@
         },
         "dev-space": {
             "description": {
-                "$ref":"#/messages/deploy.space"
-             },
+                "$ref": "#/messages/deploy.space"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-space",
@@ -54,8 +54,8 @@
         },
         "qa-region": {
             "description": {
-                "$ref":"#/messages/deploy.region"
-             },
+                "$ref": "#/messages/deploy.region"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-region",
@@ -64,8 +64,8 @@
         },
         "qa-organization": {
             "description": {
-                "$ref":"#/messages/deploy.org"
-             },
+                "$ref": "#/messages/deploy.org"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-org",
@@ -74,8 +74,8 @@
         },
         "qa-space": {
             "description": {
-                "$ref":"#/messages/deploy.space"
-             },
+                "$ref": "#/messages/deploy.space"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-space",
@@ -84,8 +84,8 @@
         },
         "prod-region": {
             "description": {
-                "$ref":"#/messages/deploy.region"
-             },
+                "$ref": "#/messages/deploy.region"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-region",
@@ -94,8 +94,8 @@
         },
         "prod-organization": {
             "description": {
-                "$ref":"#/messages/deploy.org"
-             },
+                "$ref": "#/messages/deploy.org"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-org",
@@ -104,8 +104,8 @@
         },
         "prod-space": {
             "description": {
-                "$ref":"#/messages/deploy.space"
-             },
+                "$ref": "#/messages/deploy.space"
+            },
             "type": "string",
             "validator": {
                 "v-type": "cf-space",
@@ -152,8 +152,7 @@
         "catalog-app-name",
         "ui-app-name"
     ],
-    "form": [
-        {
+    "form": [{
             "type": "validator",
             "url": "/devops/setup/bm-helper/validator-v1.html"
         },
@@ -196,8 +195,7 @@
                 "28%",
                 "28%"
             ],
-            "items": [
-                {
+            "items": [{
                     "type": "label",
                     "title": ""
                 },
